@@ -1,0 +1,44 @@
+---
+layout: default
+images:
+- image_path: "/assets/site/img/cS-1.jpg"
+  title: Apple Pie
+  num: 1
+- image_path: "/assets/site/img/cS-2.jpg"
+  title: Birthday Cake
+  num: 2
+- image_path: "/assets/site/img/cS-3.jpg"
+  title: Black Forest
+  num: 3
+- image_path: "/assets/site/img/cS-4.jpg"
+  title: Brownie
+  num: 4
+- image_path: "/assets/site/img/cS-5.jpg"
+  title: Cheese Cake
+  num: 5
+- image_path: "/assets/site/img/cS-6.jpg"
+  title: Chocolate Cake
+  num: 6
+- image_path: "/assets/site/img/cS-7.jpg"
+  title: Fruit Cake
+  num: 7
+- image_path: "/assets/site/img/cS-8.jpg"
+  title: Lamington
+  num: 8
+- image_path: "/assets/site/img/cS-9.jpg"
+  title: Lemon Cake
+  num: 9
+images_thumb: "/assets/site/img/thumb/"
+---
+
+<div class="demo">
+    <div class="item">
+        <ul id="content-slider" class="content-slider">
+            {% for image in page.images %}
+            <li>
+                <img src="{{ image.image_path }}"  alt="{{ image.title}}"/>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
