@@ -25,6 +25,13 @@ twitter_username: jekyllrb
 github_username:  jekyll
 collections:
   - photo_gallery
+defaults:
+  -
+    scope:
+      path: ""
+      type: "photo_gallery"
+    values:
+      image_path: ""
 
 # Build settings
 markdown: kramdown
