@@ -11,6 +11,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "photo_gallery"
+    values:
+      layout: "default"
+      image_path: ""
+
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -18,22 +27,7 @@ description: Write an awesome description for your new site here. You can edit t
 baseurl:
 url:
 twitter_username: jekyllrb
-<<<<<<< HEAD
-github_username:  jekyll
-collections:
-  - photo_gallery
-defaults:
-  -
-    scope:
-      path: ""
-      type: "photo_gallery"
-    values:
-      image_path: ""
-
-# Build settings
-=======
 github_username: jekyll
->>>>>>> 741199f36a61696faa5c0a52cb8d5d2614c6878a
 markdown: kramdown
 theme: minima
 plugins:
