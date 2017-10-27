@@ -1,6 +1,6 @@
 ---
 title: Brownie
-position: 4
+position: 6
 image_path: "/assets/site/img/cS-4.jpg"
 ---
 
