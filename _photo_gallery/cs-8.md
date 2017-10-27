@@ -1,4 +1,6 @@
 ---
-image_path: /assets/site/img/cS-8.jpg
-title: Lamington
+title: Lexus
+position: 0
+image_path: "/uploads/large-3-2.jpg"
 ---
+
