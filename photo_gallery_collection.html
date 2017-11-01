@@ -5,7 +5,8 @@ layout: default
 <div class="demo">
     <div class="item">
         <ul id="content-slider" class="content-slider">
-            {% for image in site.photo_gallery %}
+            {% assign images = site.photo_gallery | where: "section_id", "B100" %}
+              {% for image in images %}
             <li>
                 <img src="{{ image.image_path }}"  alt="{{ image.title }}"/>
             </li>
